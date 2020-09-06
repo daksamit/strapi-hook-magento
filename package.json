@@ -1,0 +1,41 @@
+{
+  "name": "strapi-hook-magento",
+  "version": "0.1.0",
+  "description": "A hook to setup a magento service for the Strapi framework",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "magento",
+    "hook",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "main": "lib",
+  "dependencies": {
+    "magento2-rest-client": "github:DivanteLtd/magento2-rest-client"
+  },
+  "strapi": {
+    "isHook": true
+  },
+  "author": {
+    "name": "Dominik Aksamit",
+    "email": "daksamit@daksamit.pl",
+    "url": "https://github.com/daksamit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daksamit/strapi-hook-magento.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daksamit/strapi-hook-magento/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo no test specified"
+  }
+}
