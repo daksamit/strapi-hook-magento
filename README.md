@@ -12,6 +12,33 @@ yarn add strapi-hook-magento
 npm install strapi-hook-magento --save
 ```
 
+## Hook config
+
+To activate and configure the hook, you need to create or update the file `./config/hook.js` in your strapi app.
+
+```js
+module.exports = {
+  settings: {
+    // ...
+    magento: {
+      enabled: true,
+      clients: [
+        [
+          "v-media.pl",
+          {
+            url: "https://v-media.pl",
+            consumerKey: "",
+            consumerSecret: "",
+            accessToken: "",
+            accessTokenSecret: "",
+          },
+        ],
+      ],
+    },
+  },
+};
+```
+
 ### Resources
 
 - [MIT License](LICENSE.md)
