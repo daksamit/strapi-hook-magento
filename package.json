@@ -1,6 +1,6 @@
 {
   "name": "strapi-hook-magento",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A hook to setup a magento service for the Strapi framework",
   "homepage": "http://strapi.io",
   "keywords": [
